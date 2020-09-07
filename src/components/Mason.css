@@ -1,3 +1,8 @@
+div.mason-wrapper {
+  display: block;
+  top: 50px;
+}
+
 .my-masonry-grid {
     display: -webkit-box; /* Not needed if autoprefixing */
     display: -ms-flexbox; /* Not needed if autoprefixing */
@@ -11,7 +16,27 @@
   }
   
   /* Style your items */
-  .my-masonry-grid_column > div { /* change div to reference your elements you put in <Masonry> */
+  .my-masonry-grid_column > img { /* change div to reference your elements you put in <Masonry> */
     background: grey;
     margin-bottom: 30px;
+    max-width: 50vw;
+    transition: all .2s ease-in-out;
   }
+
+  .my-masonry-grid_column > img:hover { /* change div to reference your elements you put in <Masonry> */
+    transform: scale(1.1);
+  }
+
+  /* Optional, different gutter size on mobile */
+@media (max-width: 800px) {
+  .my-masonry-grid {
+    margin-left: -15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column {
+    padding-left: 15px; /* gutter size offset */
+  }
+  .my-masonry-grid_column > img {
+    margin-bottom: 15px; /* space between items */
+    width: 100%;
+  }
+}
