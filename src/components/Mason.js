@@ -26,9 +26,9 @@ import Ramen from "../img/IMG_101.JPEG";
 function Mason() {
 
     const breakpointColumnsObj = {
-      default: 4,
+      default: 3,
       1100: 3,
-      700: 2,
+      700: 1,
       500: 1
     };
 

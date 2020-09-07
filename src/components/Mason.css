@@ -19,12 +19,12 @@ div.mason-wrapper {
   .my-masonry-grid_column > img { /* change div to reference your elements you put in <Masonry> */
     background: grey;
     margin-bottom: 30px;
-    max-width: 50vw;
+    max-width: 100%;
     transition: all .2s ease-in-out;
   }
 
   .my-masonry-grid_column > img:hover { /* change div to reference your elements you put in <Masonry> */
-    transform: scale(1.05);
+    transform: scale(1.15);
   }
 
   /* Optional, different gutter size on mobile */
@@ -37,6 +37,7 @@ div.mason-wrapper {
   }
   .my-masonry-grid_column > img {
     margin-bottom: 15px; /* space between items */
-    width: 90%;
+    max-width: 100%;
+    transform: scale(1.0);
   }
 }
