@@ -25,6 +25,13 @@ import Ramen from "../img/IMG_101.JPEG";
 
 function Mason() {
 
+    const breakpointColumnsObj = {
+      default: 4,
+      1100: 3,
+      700: 2,
+      500: 1
+    };
+
     var maxWidth = "500px";
 
     var items = [
@@ -48,13 +55,13 @@ function Mason() {
       
       // Convert array to JSX items
       items = items.map(function(item) {
-        return <img key={item.id} src={item.src} alt={item.alt} width={maxWidth} className="food-photo"/>
+        return <img key={item.id} src={item.src} alt={item.alt} width={maxWidth} className="food-photo" />
       });
       
   return (
     <div className="mason-wrapper">
       <Masonry
-        breakpointCols={3}
+        breakpointCols={breakpointColumnsObj}
         className="my-masonry-grid"
         columnClassName="my-masonry-grid_column"
       >

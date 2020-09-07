@@ -24,7 +24,7 @@ div.mason-wrapper {
   }
 
   .my-masonry-grid_column > img:hover { /* change div to reference your elements you put in <Masonry> */
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 
   /* Optional, different gutter size on mobile */
@@ -37,6 +37,6 @@ div.mason-wrapper {
   }
   .my-masonry-grid_column > img {
     margin-bottom: 15px; /* space between items */
-    width: 100%;
+    width: 90%;
   }
 }
