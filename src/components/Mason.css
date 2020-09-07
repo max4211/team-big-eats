@@ -38,6 +38,11 @@ div.mason-wrapper {
   .my-masonry-grid_column > img {
     margin-bottom: 15px; /* space between items */
     max-width: 100%;
-    transform: scale(1.0);
+    transition: none;
   }
+
+  .my-masonry-grid_column > img:hover { 
+    transform: none;
+  }
+  
 }

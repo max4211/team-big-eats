@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+  /* Media queries to remove mobile horizontal scroll */
+  @media (max-width: 800px) {
+    html, body {
+      overflow-x: hidden;
+    }
+    body {
+      position: relative
+    }
+  }
