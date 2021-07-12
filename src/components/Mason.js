@@ -19,6 +19,9 @@ import AvoToast from "../img/IMG_104.JPEG";
 import Waffles from "../img/IMG_103.JPEG";
 import Pho from "../img/IMG_102.JPEG";
 import Ramen from "../img/IMG_101.JPEG";
+import Lamb from "../img/IMG-5515.jpg";
+import Eggs from "../img/IMG-6072.jpg";
+import Hash from "../img/IMG-6089.jpg";
 
 
 
@@ -50,7 +53,9 @@ function Mason() {
         {id: 13, src: Tacos, alt: "Tacos"},
         {id: 14, src: Omlette, alt: "Omlette"},
         {id: 15, src: Scallops, alt: "Scallops"},
-        // {id: 16, src: Lava, alt: "Lava"}
+        {id: 17, src: Lamb, alt: "Lamb"},
+        {id: 18, src: Hash, alt: "Hash"},
+        {id: 19, src: Eggs, alt: "Eggs"}
     ];
       
       // Convert array to JSX items
