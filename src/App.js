@@ -1,9 +1,12 @@
 import React from 'react';
 import './App.css';
-import Mason from './components/Mason';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import Header from './components/Header';
+import Mason from './pages/Mason';
+import Countdown from './pages/Countdown';
+import { BrowserRouter as Router, Routes, Route}
+    from 'react-router-dom';
 
 class App extends React.Component {
 
@@ -18,10 +21,12 @@ class App extends React.Component {
 
   render() {
       return (
-        <div className="App">
-          {/* <Header/> */}
-          <Mason/>
-        </div>
+        <Router>
+          <Routes>
+          <Route exact path='/' element={<Mason />} />
+        <Route path='/ostarr' element={<Countdown/>} />
+        </Routes>
+        </Router>
       );
     }
   }
