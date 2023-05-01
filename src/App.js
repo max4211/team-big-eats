@@ -4,6 +4,8 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 // import Header from './components/Header';
 import Mason from './pages/Mason';
+import Dinner from './pages/Dinner';
+
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
 
@@ -23,6 +25,7 @@ class App extends React.Component {
         <Router>
           <Routes>
           <Route exact path='/' element={<Mason />} />
+          <Route exact path='/dinner-menu' element={<Dinner />} />
         </Routes>
         </Router>
       );
