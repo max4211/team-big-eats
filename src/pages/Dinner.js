@@ -5,38 +5,41 @@ function Dinner() {
 
   return (
     <div className="dinner-wrapper">
-        <div className="dinner-menu">
-            <h1>Dinner Menu</h1>
+        <div className="dinner-menu text-center">
+            <div className="d-section text-uppercase">
+                <h1>Dinner Menu</h1>
+                <p>Tuesday May 2nd, 2023</p>
+            </div>
             <div className="d-section">
-                <h3 className="section-name">Drinks</h3>
-                <div className="menu-item">
-                    <p className="strong-name">Red Wine</p>
-                    <p className="light-desc">TODO description</p>
+                {/* <h5 className="font-weight-bold">Drinks</h5> */}
+                <div className="menu-item ">
+                    <p className="text-uppercase mb-0">Red Wine</p>
+                    <p className="light-desc">Red wine, bottle says "dry"</p>
                 </div>
             </div>
             <div className="d-section">
-                <h3 className="section-name">Main</h3>
+                {/* <h3 className="font-weight-bold">Main</h3> */}
                 <div className="menu-item">
-                    <p className="strong-name">Steak</p>
+                    <p className="text-uppercase mb-0">Steak</p>
                     <p className="light-desc">Sous vide filet, truffle butter</p>
                 </div>
                 <div className="menu-item">
-                    <p className="strong-name">Potatoes</p>
-                    <p className="light-desc">Kenji's crispy potatoes, rosemary/thyme oil</p>
+                    <p className="text-uppercase mb-0">Potatoes</p>
+                    <p className="light-desc">Kenji's potatoes, herb oil</p>
                 </div>
                 <div className="menu-item">
-                    <p className="strong-name">Broccoli</p>
-                    <p className="light-desc">Gotta have a vegetable, lemon and garlic</p>
+                    <p className="text-uppercase mb-0">Broccoli</p>
+                    <p className="light-desc">Need a vegetable</p>
                 </div>
             </div>
             <div className="d-section">
-                <h3 className="section-name">Dessert</h3>
+                {/* <h3 className="font-weight-bold">Dessert</h3> */}
                 <div className="menu-item">
-                    <p className="strong-name">Chocolate Lava Cakes</p>
+                    <p className="text-uppercase mb-0">Chocolate Lava Cakes</p>
                     <p className="light-desc">Vanilla ice cream, berries</p>
                 </div>
             </div>
-            <div className="d-footer">
+            <div className="d-section">
                 <p className="p-footer">Executive Chef Max Smith</p>
             </div>
 
