@@ -6,7 +6,7 @@ function Dinner() {
   return (
     <div className="dinner-wrapper">
         <div className="dinner-menu text-center">
-            <div className="d-section text-uppercase">
+            <div className="d-section text-uppercase header-section">
                 <h1>Dinner Menu</h1>
                 <p>Tuesday May 2nd, 2023</p>
             </div>

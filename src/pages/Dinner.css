@@ -5,6 +5,10 @@ div.dinner-wrapper {
     /* background: #F1FAEE; */
 }
 
+div.header-section {
+    color: #1d3557;
+}
+
 div.dinner-menu {
     background: inherit;
     /* -webkit-box-shadow:inset 0px 0px 0px 10px #DAD2BC;
