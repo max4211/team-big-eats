@@ -3,9 +3,12 @@ import useWindowSize from 'react-use/lib/useWindowSize'
 import { useSearchParams } from 'react-router-dom'
 import Confetti from 'react-confetti'
 import MothersDayCard from "../img/mothersDay.jpg";
+import { Helmet } from 'react-helmet';
 
 // example url, slightly customizable, could not get images :(
 // http://localhost:3000/mothers-day?mom=Amy&kids=Jake,Max,Noah,Zoe,%20and%20Whiskey&customMessage=We%20love%20you%20and%20hope%20you%20have%20a%20special%20day
+
+
 
 function Mother() {
 
@@ -22,6 +25,10 @@ function Mother() {
         width={width}
         height={height}
       />
+      <Helmet>
+        <meta property="og:title" content="Happy Mother's Day" />
+        <meta property="og:image" content="https://static.vecteezy.com/system/resources/previews/001/045/651/original/happy-mother-s-day-flowers-and-geometric-frame-card-vector.jpg" />
+      </Helmet>
       <div className="w-100 h-100 text-center mt-5">
         <h1>Happy Mother's Day, {mom}!</h1>
         {kids && <h3>Love {kids}</h3>}
