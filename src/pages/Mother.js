@@ -28,7 +28,7 @@ function Mother() {
       <Helmet>
         <meta property="og:title" content="Happy Mother's Day" />
         {/* <meta property="og:image" content={MothersDayCard} /> */}
-        <link rel="apple-touch-icon" href="~/src/img/momIcon.png" />
+        <link rel="apple-touch-icon" href="https://cdn-icons-png.flaticon.com/512/7410/7410524.png" />
 
       </Helmet>
       <div className="w-100 h-100 text-center mt-5">
