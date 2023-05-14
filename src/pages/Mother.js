@@ -27,8 +27,8 @@ function Mother() {
       />
       <Helmet>
         <meta property="og:title" content="Happy Mother's Day" />
-        <meta property="og:image" content="https://static.vecteezy.com/system/resources/previews/001/045/651/original/happy-mother-s-day-flowers-and-geometric-frame-card-vector.jpg" />
-        <link rel="apple-touch-icon" href="https://static.vecteezy.com/system/resources/previews/001/045/651/original/happy-mother-s-day-flowers-and-geometric-frame-card-vector.jpg" />
+        {/* <meta property="og:image" content={MothersDayCard} /> */}
+        <link rel="apple-touch-icon" href="~/src/img/momIcon.png" />
 
       </Helmet>
       <div className="w-100 h-100 text-center mt-5">
