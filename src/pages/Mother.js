@@ -4,6 +4,8 @@ import { useSearchParams } from 'react-router-dom'
 import Confetti from 'react-confetti'
 import MothersDayCard from "../img/mothersDay.jpg";
 
+// example url, slightly customizable, could not get images :(
+// http://localhost:3000/mothers-day?mom=Amy&kids=Jake,Max,Noah,Zoe,%20and%20Whiskey&customMessage=We%20love%20you%20and%20hope%20you%20have%20a%20special%20day
 
 function Mother() {
 
