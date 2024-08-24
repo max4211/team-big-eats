@@ -6,6 +6,8 @@ import 'aos/dist/aos.css';
 import Mason from './pages/Mason';
 import Dinner from './pages/Dinner';
 import Mother from './pages/Mother';
+import Birthday from './pages/Birthday';
+
 
 import { BrowserRouter as Router, Routes, Route}
     from 'react-router-dom';
@@ -28,6 +30,7 @@ class App extends React.Component {
           <Route exact path='/' element={<Mason />} />
           <Route exact path='/dinner-menu' element={<Dinner />} />
           <Route exact path='/mothers-day' element={<Mother />} />
+          <Route exact path='/birthday' element={<Birthday />} />
         </Routes>
         </Router>
       );

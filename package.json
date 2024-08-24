@@ -20,6 +20,7 @@
     "react-use": "^17.4.0"
   },
   "scripts": {
+    "start-local": "react-scripts start",
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
